@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Daniel Collao · CV</title>
+<meta name="description" content="CV de Daniel Alejandro Collao Huerta, Ingeniero en Informática (Duoc UC).">
+<meta name="theme-color" content="#000000">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Sora:wght@400;600;700;800&family=Manrope:wght@400;500;600;700&display=swap">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="page">
+  <div class="glow" aria-hidden="true"></div>
+  <div class="wrap">
+
+    <header class="top">
+      <div class="brand">
+        <div class="logo">DC</div>
+        <span>Daniel Collao</span>
+      </div>
+      <nav aria-label="Secciones" class="nav">
+        <a href="#experiencia">Experiencia</a>
+        <a href="#formacion">Formación</a>
+        <a href="#certificaciones">Certificaciones</a>
+        <a href="#contacto" class="btn btn-light btn-sm">Contactar</a>
+      </nav>
+    </header>
+
+    <section class="hero">
+      <span class="badge"><span class="dot" aria-hidden="true"></span>Disponible para nuevos desafíos</span>
+      <h1>Daniel Alejandro<br>Collao Huerta</h1>
+      <p class="role" aria-live="polite"><span id="role" class="fade">Ingeniero en Informática</span></p>
+      <p class="lead">Ingeniero en Informática titulado de Duoc UC, con práctica profesional desarrollando agentes de IA y base técnica en electricidad y electromecánica.</p>
+      <div class="row center">
+        <a href="#experiencia" class="btn btn-light">Ver mi trayectoria
+          <svg aria-hidden="true" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 5v14M6 13l6 6 6-6"/></svg>
+        </a>
+        <a href="#contacto" class="btn btn-ghost">Contactar</a>
+      </div>
+    </section>
+
+    <section aria-label="Datos clave" class="stats">
+      <div class="card lift"><span class="num">2025</span><span class="muted">Titulado Ingeniero en Informática</span></div>
+      <div class="card lift"><span class="num">5,6</span><span class="muted">Nota de titulación</span></div>
+      <div class="card lift"><span class="num">8</span><span class="muted">Certificaciones de módulo</span></div>
+      <div class="card lift"><span class="num">B · C</span><span class="muted">Licencia de conducir</span></div>
+    </section>
+
+    <section id="experiencia" class="block">
+      <div class="head">
+        <div>
+          <span class="eyebrow">Trayectoria</span>
+          <h2>Experiencia laboral</h2>
+        </div>
+        <div role="group" aria-label="Filtrar experiencia" class="filters" id="expFilters"></div>
+      </div>
+      <p class="hint">Toca una tarjeta para ver el detalle.</p>
+      <div class="grid exp" id="expList"></div>
+    </section>
+
+    <section id="formacion" class="block split">
+      <div class="side">
+        <span class="eyebrow">Educación</span>
+        <h2>Formación</h2>
+        <p class="muted big">Persona responsable, creativa y puntual, con facilidad para trabajar en equipo bajo presión y resolver problemas de forma eficiente.</p>
+      </div>
+      <div class="main">
+        <div class="edu">
+          <div><h3>Ingeniero en Informática</h3><span class="muted">Instituto Profesional Duoc UC · Título profesional, nota 5,6</span></div>
+          <span class="accent">Titulado 21 ago 2025</span>
+        </div>
+        <div class="edu">
+          <div><h3>Técnico Nivel Medio en Electricidad</h3><span class="muted">Liceo Bicentenario Politécnico América</span></div>
+          <span class="accent">Enseñanza media</span>
+        </div>
+        <div class="edu last">
+          <div><h3>Enseñanza básica</h3><span class="muted">Colegio San Sebastián</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="certificaciones" class="block">
+      <div class="head">
+        <div>
+          <span class="eyebrow">Instituto Profesional Duoc UC</span>
+          <h2>Certificaciones Duoc UC</h2>
+        </div>
+        <div role="group" aria-label="Filtrar certificaciones" class="filters" id="certFilters"></div>
+      </div>
+      <div class="issuer">
+        <span class="issuer-logo" aria-hidden="true">DUOC<br>UC</span>
+        <p>Certificaciones de módulo otorgadas por el <strong>Instituto Profesional Duoc UC</strong> dentro de la carrera de <strong>Ingeniería en Informática</strong> (nivel profesional), al cumplir los requisitos del currículum de la carrera.</p>
+      </div>
+      <div class="grid certs" id="certList"></div>
+      <p class="muted">Certificado oficial de Duoc UC, verificable con el ID 3561231641 en <a href="https://certificadovalida.duoc.cl/ValidacionCertificados" target="_blank" rel="noopener">certificadovalida.duoc.cl</a>.</p>
+    </section>
+
+
+    <section id="contacto" class="cta">
+      <h2>Conversemos.</h2>
+      <p>Busco un trabajo estable donde seguir creciendo profesionalmente, asumir nuevos retos y capacitarme de forma continua.</p>
+      <div class="row center">
+        <a href="mailto:danielcollao09@gmail.com" class="btn btn-dark">danielcollao09@gmail.com</a>
+        <button type="button" class="btn btn-outline" id="copyBtn">Copiar correo</button>
+        <a href="tel:+56957432276" class="btn btn-outline">+56 9 5743 2276</a>
+        <a href="https://wa.me/56957432276" target="_blank" rel="noopener" class="btn btn-outline">WhatsApp</a>
+      </div>
+    </section>
+
+    <footer class="foot">
+      <span>© 2026 Daniel Collao</span>
+      <span>Los Andes, Región de Valparaíso, Chile</span>
+    </footer>
+
+  </div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
